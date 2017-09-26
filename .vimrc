@@ -13,11 +13,12 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'vim-scripts/taglist.vim'
 
+Plugin 'derekwyatt/vim-scala'
+
 Plugin 'jiangmiao/auto-pairs'
 let g:AutoPairsMultilineClose = 0
 let g:AutoPairsFlyMode = 0
 
-Plugin 'Chiel92/vim-autoformat'
 
 " Waka Time, website: wakatime.com
 "Plugin 'wakatime/vim-wakatime'
