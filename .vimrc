@@ -19,8 +19,14 @@ let g:AutoPairsFlyMode = 0
 
 Plugin 'Chiel92/vim-autoformat'
 
+" Waka Time, website: wakatime.com
+"Plugin 'wakatime/vim-wakatime'
+"
+Plugin 'tczengming/autoload_cscope.vim'
+
 " search files quickly
 Plugin 'ctrlpvim/ctrlp.vim'
+
 
 " Scroll more smoothly
 Plugin 'yonchu/accelerated-smooth-scroll'
@@ -96,4 +102,10 @@ set laststatus=2
 " use Ctrl-h to the previous tab, and Ctrl-l to the next tab
 map <C-h> gT
 map <C-l> gt
+set tags=./tags;,tags
+set tags+=/home/lyn/Codes/cpp_study/cpp_src/tags
+set autochdir
+
+" For cscope
+nmap ff :cs find g <C-R>=expand("<cword>")<CR><CR>
 
