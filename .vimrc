@@ -22,8 +22,8 @@ let g:AutoPairsFlyMode = 0
 
 " Waka Time, website: wakatime.com
 "Plugin 'wakatime/vim-wakatime'
-"
 Plugin 'tczengming/autoload_cscope.vim'
+
 
 " search files quickly
 Plugin 'ctrlpvim/ctrlp.vim'
